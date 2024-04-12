@@ -40,11 +40,8 @@ function somaPreco() {
   console.log(precoFinal);
   resultado.innerHTML += `
   <tr>
-    <td>${numeroHamburguer.value}</td>
     <td>${precoHamburguer.toFixed(2)}</td>
-    <td>${numeroBatata.value}</td>
     <td>${precoBatata.toFixed(2)}</td>
-    <td>${numeroSorvete.value}</td>
     <td>${precoSorvete.toFixed(2)}</td>
     <td>${precoFinal.toFixed(2)}</td>  
   </tr>`;
